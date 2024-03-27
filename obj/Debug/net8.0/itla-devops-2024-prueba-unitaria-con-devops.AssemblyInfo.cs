@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("itla-devops-2024-prueba-unitaria-con-devops")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4ec4c481bd0611a7d276595bfef8caf29dd50cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("itla-devops-2024-prueba-unitaria-con-devops")]
 [assembly: System.Reflection.AssemblyTitleAttribute("itla-devops-2024-prueba-unitaria-con-devops")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
