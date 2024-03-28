@@ -9,7 +9,7 @@ public class CalculadoraTest
     [Test(ExpectedResult = 15)]
     public double Sumar_DosNumerosPositivos_ResultadoCorrecto()
     {
-        double num1 = 5;
+        double num1 = 1;
         double num2 = 10;
 
         return Calculadora.Sumar(num1, num2);
