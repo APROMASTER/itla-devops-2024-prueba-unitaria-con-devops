@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itla-devops-2024-prueba-unitaria-con-devops", "itla-devops-2024-prueba-unitaria-con-devops.csproj", "{6BB322AD-4B47-4891-96A0-4E30F818074D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itla-devops-2024-prueba-unitaria-con-devops", "itla-devops-2024-prueba-unitaria-con-devops.csproj", "{9411D6AA-9D85-451B-BCFB-E5DF83182339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6BB322AD-4B47-4891-96A0-4E30F818074D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BB322AD-4B47-4891-96A0-4E30F818074D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BB322AD-4B47-4891-96A0-4E30F818074D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BB322AD-4B47-4891-96A0-4E30F818074D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9411D6AA-9D85-451B-BCFB-E5DF83182339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9411D6AA-9D85-451B-BCFB-E5DF83182339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9411D6AA-9D85-451B-BCFB-E5DF83182339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9411D6AA-9D85-451B-BCFB-E5DF83182339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B579EDE7-4241-4FFD-B5B2-7F79809135D2}
+		SolutionGuid = {2CBAD86B-4288-456E-A4BD-35AFFD440349}
 	EndGlobalSection
 EndGlobal
