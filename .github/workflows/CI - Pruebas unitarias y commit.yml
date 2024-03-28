@@ -3,14 +3,15 @@ name: CI - Pruebas unitarias y commit
 on:
   push:
     branches:
-      - main
+      - "*"
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Restaurar dependencias
         run: dotnet restore
@@ -18,8 +19,4 @@ jobs:
       - name: Compilar y ejecutar pruebas
         run: dotnet test
 
-      - name: Commit si las pruebas pasan
-        if: success()
-        uses: EndBug/add-and-commit@v2
-        with:
-          message: "Pruebas unitarias: OK"
+      
