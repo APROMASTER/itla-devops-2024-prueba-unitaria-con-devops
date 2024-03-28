@@ -1,22 +1,19 @@
-name: CI - Pruebas unitarias y commit
+name: Run tests
 
 on:
   push:
     branches:
-      - "*"
+      - '*'
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Restaurar dependencias
         run: dotnet restore
 
       - name: Compilar y ejecutar pruebas
         run: dotnet test
-
-      
